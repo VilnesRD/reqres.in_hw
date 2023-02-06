@@ -4,10 +4,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public @Data class RegisterBodySuccessfulWithLombok {
+@Data
+public class LoginBodySuccessfulWithLombok {
 
     private String email,
             password;
-
-
 }

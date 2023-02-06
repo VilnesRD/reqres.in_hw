@@ -1,11 +1,12 @@
-package test.reqres.models.lombok.registrSuccessful;
+package test.reqres.models.lombok.loginSuccessful;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public @Data class RegisterResponseSuccessfulWithLombok {
+@Data
+public class LoginResponseSuccessfulWithLombok {
 
-    private int year;
+    private String token = "QpwL5tke4Pnpja7X4";
 
 }
