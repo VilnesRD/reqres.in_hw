@@ -1,6 +1,7 @@
 package test.reqres;
 
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import test.reqres.models.lombok.createUser.CreateUserLombokModel;
 import test.reqres.models.lombok.listResources.ListResourcesLombokModel;
@@ -34,6 +35,7 @@ public class ReqresApiTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Check single user")
     void singleUser(){
         SingleUserLombokModel data = new SingleUserLombokModel();
         given()
@@ -50,6 +52,7 @@ public class ReqresApiTests extends TestBase {
 
 
     @Test
+    @DisplayName("Check one resource")
     void listResources(){
         ListResourcesLombokModel data = new ListResourcesLombokModel();
         given()
@@ -65,6 +68,7 @@ public class ReqresApiTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Check create user")
     void createUserSuccessful(){
         CreateUserLombokModel data = new CreateUserLombokModel();
         data.setName("morpheus");
@@ -85,6 +89,7 @@ public class ReqresApiTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Check login successful")
     void loginSuccessful() {
         LoginBodySuccessfulWithLombok data = new LoginBodySuccessfulWithLombok();
         data.setEmail("eve.holt@reqres.in");
