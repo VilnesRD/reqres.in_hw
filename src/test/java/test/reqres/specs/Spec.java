@@ -14,6 +14,7 @@ public class Spec {
 
     public static RequestSpecification request = with()
             .log().uri()
+            .contentType(JSON)
             .filter(withCustomTemplates());
 
     public static ResponseSpecification response = new ResponseSpecBuilder()

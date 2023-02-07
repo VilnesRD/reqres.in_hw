@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcd742c9-8c51-443d-aca7-07d2e493d202" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="bcd742c9-8c51-443d-aca7-07d2e493d202" name="Changes" comment="add @DisplayName">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/ReqresApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/ReqresApiTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/helpers/CustomApiListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/helpers/CustomApiListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/createUser/CreateUserLombokModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/createUser/CreateUserLombokModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/listResources/ListResourcesLombokModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/listResources/ListResourcesLombokModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/listUsers/ListUserLombokModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/listUsers/ListUserLombokModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/loginSuccessful/LoginBodySuccessfulWithLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/loginSuccessful/LoginBodySuccessfulWithLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/loginSuccessful/LoginResponseSuccessfulWithLombok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/loginSuccessful/LoginResponseSuccessfulWithLombok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/singleUser/SingleUserLombokModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/models/lombok/singleUser/SingleUserLombokModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/reqres/specs/Spec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/reqres/specs/Spec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,10 +196,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ReqresApiTests" />
+        <item itemvalue="Gradle.ReqresApiTests.loginSuccessful" />
         <item itemvalue="Gradle.reqres.in_2 [allureServe]" />
         <item itemvalue="Gradle.reqres.in_2 [allureReport]" />
         <item itemvalue="Gradle.Tests in 'reqres.in_2.test'" />
-        <item itemvalue="Gradle.ReqresApiTests.loginSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +212,27 @@
       <option name="presentableId" value="Default" />
       <updated>1675679504142</updated>
     </task>
+    <task id="LOCAL-00001" summary="change @Data">
+      <created>1675710783473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675710783473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add @DisplayName">
+      <created>1675711057846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675711057846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change @Data" />
+    <MESSAGE value="add @DisplayName" />
+    <option name="LAST_COMMIT_MESSAGE" value="add @DisplayName" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
